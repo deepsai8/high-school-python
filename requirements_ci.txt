@@ -11,3 +11,4 @@ mkdocs-plotly-plugin
 mkdocstrings-python-legacy
 plotly
 pymdown-extensions
+mkdocs-material-extensions

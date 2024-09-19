@@ -11,4 +11,5 @@ Here you'll learn all about Python in crisp and byte-sized lessons in a practica
 [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws)
 
 
+
 ### We will try to make things as intuitive as possible!

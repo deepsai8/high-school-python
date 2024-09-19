@@ -8,7 +8,11 @@ mkdocs-material
 mkdocs-minify-plugin
 mkdocs-pdf-export-plugin
 mkdocs-plotly-plugin
+mkdocs-static-i18n[material]
 mkdocstrings-python-legacy
 plotly
 pymdown-extensions
 mkdocs-material-extensions
+mkdocs-with-pdf
+weasyprint
+python-dotenv

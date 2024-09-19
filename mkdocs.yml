@@ -111,8 +111,22 @@ plugins:
   - plotly
   - markmap
   - glightbox
-  - search:
-    # separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - search
+  - pdf-export:
+      verbose: true
+      combined: true
+      media_type: print
+      enabled_if_env: ENABLE_PDF_EXPORT
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: hi
+          name: Hindi
+          build: true
 
 
 markdown_extensions:
@@ -148,3 +162,4 @@ nav:
   - 8. Advanced Topics: chapters/chapter08.md
   - 9. Question Bank: chapters/chapter09.md
   - 10. Fun Projects: chapters/chapter10.md
+  - Answers to Question Bank: chapters/chapter09-ans.md

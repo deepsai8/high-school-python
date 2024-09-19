@@ -5,6 +5,7 @@ __pycache__/
 .DS_Store
 docs/.DS_Store
 site/.DS_Store
+.python-version
 
 
 # C extensions

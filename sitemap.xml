@@ -11,27 +11,57 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/blogs/</loc>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter01/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/dbms/psycopg/</loc>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter02/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/dbms/sql_theory/</loc>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter03/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/deeplearning/nn/</loc>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter04/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/probstats/probability/</loc>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter05/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter06/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter07/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter08/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter09/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter10/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepsai8.github.io/high-school-python/chapters/contents/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>

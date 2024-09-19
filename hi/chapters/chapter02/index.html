@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="hi" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -12,28 +12,28 @@
         <meta name="author" content="Anshul Yadav">
       
       
-        <link rel="canonical" href="https://deepsai8.github.io/high-school-python/chapters/chapter01/">
+        <link rel="canonical" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter02/">
       
       
-        <link rel="prev" href="../contents/">
+        <link rel="prev" href="../chapter01/">
       
       
-        <link rel="next" href="../chapter02/">
+        <link rel="next" href="../chapter03/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.35">
     
     
       
-        <title>1. Intro to Python - High School Python</title>
+        <title>2. Data Structures - High School Python</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35f28582.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -71,7 +71,7 @@
     
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -80,7 +80,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -99,8 +99,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#chapter-1-introduction-to-python" class="md-skip">
-          Skip to content
+        <a href="#2-data-structures" class="md-skip">
+          विषय पर बढ़ें
         </a>
       
     </div>
@@ -114,8 +114,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="High School Python" class="md-header__button md-logo" aria-label="High School Python" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="शीर्षक">
+    <a href="../../" title="High School Python" class="md-header__button md-logo" aria-label="High School Python" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -135,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1. Intro to Python
+              2. Data Structures
             
           </span>
         </div>
@@ -185,20 +185,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="भाषा चुनें">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
+            <a href="../../../chapters/chapter02/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../hi/chapters/chapter01/" hreflang="hi" class="md-select__link">
+            <a href="./" hreflang="hi" class="md-select__link">
               Hindi
             </a>
           </li>
@@ -217,21 +217,21 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="खोज" placeholder="खोज" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="खोजें">
         
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="शेयर करें" aria-label="शेयर करें" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
             
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
           </a>
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="हटा दें" aria-label="हटा दें" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -244,7 +244,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            खोज शुरू करें
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -255,7 +255,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/deepsai8/high-school-python" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/deepsai8/high-school-python" title="रिपॉजिटरी पर जाएं" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -289,9 +289,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="नैविगेशन" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="High School Python" class="md-nav__button md-logo" aria-label="High School Python" data-md-component="logo">
+    <a href="../../" title="High School Python" class="md-nav__button md-logo" aria-label="High School Python" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -301,7 +301,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/deepsai8/high-school-python" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/deepsai8/high-school-python" title="रिपॉजिटरी पर जाएं" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -321,7 +321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -358,6 +358,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Intro to Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -374,7 +394,7 @@
           
   
   <span class="md-ellipsis">
-    1. Intro to Python
+    2. Data Structures
   </span>
   
 
@@ -385,7 +405,7 @@
         
   
   <span class="md-ellipsis">
-    1. Intro to Python
+    2. Data Structures
   </span>
   
 
@@ -393,7 +413,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="विषय - सूची">
   
   
   
@@ -402,33 +422,42 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      विषय - सूची
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-python" class="md-nav__link">
+  <a href="#data-structures" class="md-nav__link">
     <span class="md-ellipsis">
-      What is Python?
+      Data Structures क्या हैं?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="What is Python?">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variables-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables और Data Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variables और Data Types">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#history-and-origin" class="md-nav__link">
+  <a href="#variables" class="md-nav__link">
     <span class="md-ellipsis">
-      History and Origin
+      कोड उदाहरण: Variables का उपयोग
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#why-python" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Why Python?
+      व्याख्या:
     </span>
   </a>
   
@@ -440,37 +469,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setting-up-python" class="md-nav__link">
+  <a href="#lists" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting Up Python
+      Lists: आइटम्स का कलेक्शन संगठित करना
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Setting Up Python">
+    <nav class="md-nav" aria-label="Lists: आइटम्स का कलेक्शन संगठित करना">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#installing-python" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Installing Python
+      कोड उदाहरण: आपके पसंदीदा भोजन की सूची
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#using-google-colab-no-installation-required" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Using Google Colab (No Installation Required!)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#python-ides-integrated-development-environments" class="md-nav__link">
-    <span class="md-ellipsis">
-      Python IDEs (Integrated Development Environments)
+      व्याख्या:
     </span>
   </a>
   
@@ -482,28 +502,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#your-first-python-program" class="md-nav__link">
+  <a href="#tuples" class="md-nav__link">
     <span class="md-ellipsis">
-      Your First Python Program
+      Tuples: ऐसी सूची जो बदली नहीं जा सकती
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Your First Python Program">
+    <nav class="md-nav" aria-label="Tuples: ऐसी सूची जो बदली नहीं जा सकती">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#code-example-hello-world" class="md-nav__link">
+  <a href="#tuple" class="md-nav__link">
     <span class="md-ellipsis">
-      Code Example: "Hello, World!"
+      कोड उदाहरण: निर्देशांक का एक tuple
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#explanation" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Explanation:
+      मजेदार तथ्य:
     </span>
   </a>
   
@@ -515,19 +535,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fun-example-greet-the-user" class="md-nav__link">
+  <a href="#dictionaries-key-value-pairs" class="md-nav__link">
     <span class="md-ellipsis">
-      Fun Example: Greet the User
+      Dictionaries: Key-Value Pairs में डेटा संग्रहीत करना
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Fun Example: Greet the User">
+    <nav class="md-nav" aria-label="Dictionaries: Key-Value Pairs में डेटा संग्रहीत करना">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#whats-happening-here" class="md-nav__link">
+  <a href="#phone-book" class="md-nav__link">
     <span class="md-ellipsis">
-      What’s Happening Here?
+      कोड उदाहरण: एक Phone Book
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      व्याख्या:
     </span>
   </a>
   
@@ -539,28 +568,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mini-project-build-a-simple-calculator" class="md-nav__link">
+  <a href="#sets" class="md-nav__link">
     <span class="md-ellipsis">
-      Mini Project: Build a Simple Calculator
+      Sets: डुप्लिकेट्स के बिना कलेक्शन
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Mini Project: Build a Simple Calculator">
+    <nav class="md-nav" aria-label="Sets: डुप्लिकेट्स के बिना कलेक्शन">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#code-example-simple-calculator" class="md-nav__link">
+  <a href="#set" class="md-nav__link">
     <span class="md-ellipsis">
-      Code Example: Simple Calculator
+      कोड उदाहरण: अद्वितीय रंगों का एक set
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#explanation_1" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
-      Explanation:
+      व्याख्या:
     </span>
   </a>
   
@@ -572,19 +601,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#quiz-time" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
-      Quiz Time!
+      मजेदार उदाहरण: अपने दोस्तों के पसंदीदा स्नैक्स संग्रहीत करें
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Quiz Time!">
+    <nav class="md-nav" aria-label="मजेदार उदाहरण: अपने दोस्तों के पसंदीदा स्नैक्स संग्रहीत करें">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#answers" class="md-nav__link">
+  <a href="#friends-snacks" class="md-nav__link">
     <span class="md-ellipsis">
-      Answers:
+      कोड उदाहरण: Friends और Snacks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      यहां क्या हो रहा है?
     </span>
   </a>
   
@@ -596,9 +634,66 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#further-reading" class="md-nav__link">
+  <a href="#contact-book" class="md-nav__link">
     <span class="md-ellipsis">
-      Further Reading
+      मिनी प्रोजेक्ट: एक Contact Book बनाएं
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="मिनी प्रोजेक्ट: एक Contact Book बनाएं">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contact-book_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      कोड उदाहरण: Contact Book
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      व्याख्या:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      क्विज़ टाइम!
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="क्विज़ टाइम!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      उत्तर:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      आगे पढ़ने के लिए
     </span>
   </a>
   
@@ -608,26 +703,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../chapter02/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2. Data Structures
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -825,7 +900,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="विषय - सूची">
   
   
   
@@ -834,33 +909,42 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      विषय - सूची
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-python" class="md-nav__link">
+  <a href="#data-structures" class="md-nav__link">
     <span class="md-ellipsis">
-      What is Python?
+      Data Structures क्या हैं?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="What is Python?">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variables-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables और Data Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variables और Data Types">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#history-and-origin" class="md-nav__link">
+  <a href="#variables" class="md-nav__link">
     <span class="md-ellipsis">
-      History and Origin
+      कोड उदाहरण: Variables का उपयोग
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#why-python" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Why Python?
+      व्याख्या:
     </span>
   </a>
   
@@ -872,37 +956,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setting-up-python" class="md-nav__link">
+  <a href="#lists" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting Up Python
+      Lists: आइटम्स का कलेक्शन संगठित करना
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Setting Up Python">
+    <nav class="md-nav" aria-label="Lists: आइटम्स का कलेक्शन संगठित करना">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#installing-python" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Installing Python
+      कोड उदाहरण: आपके पसंदीदा भोजन की सूची
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#using-google-colab-no-installation-required" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Using Google Colab (No Installation Required!)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#python-ides-integrated-development-environments" class="md-nav__link">
-    <span class="md-ellipsis">
-      Python IDEs (Integrated Development Environments)
+      व्याख्या:
     </span>
   </a>
   
@@ -914,28 +989,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#your-first-python-program" class="md-nav__link">
+  <a href="#tuples" class="md-nav__link">
     <span class="md-ellipsis">
-      Your First Python Program
+      Tuples: ऐसी सूची जो बदली नहीं जा सकती
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Your First Python Program">
+    <nav class="md-nav" aria-label="Tuples: ऐसी सूची जो बदली नहीं जा सकती">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#code-example-hello-world" class="md-nav__link">
+  <a href="#tuple" class="md-nav__link">
     <span class="md-ellipsis">
-      Code Example: "Hello, World!"
+      कोड उदाहरण: निर्देशांक का एक tuple
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#explanation" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Explanation:
+      मजेदार तथ्य:
     </span>
   </a>
   
@@ -947,19 +1022,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fun-example-greet-the-user" class="md-nav__link">
+  <a href="#dictionaries-key-value-pairs" class="md-nav__link">
     <span class="md-ellipsis">
-      Fun Example: Greet the User
+      Dictionaries: Key-Value Pairs में डेटा संग्रहीत करना
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Fun Example: Greet the User">
+    <nav class="md-nav" aria-label="Dictionaries: Key-Value Pairs में डेटा संग्रहीत करना">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#whats-happening-here" class="md-nav__link">
+  <a href="#phone-book" class="md-nav__link">
     <span class="md-ellipsis">
-      What’s Happening Here?
+      कोड उदाहरण: एक Phone Book
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      व्याख्या:
     </span>
   </a>
   
@@ -971,28 +1055,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mini-project-build-a-simple-calculator" class="md-nav__link">
+  <a href="#sets" class="md-nav__link">
     <span class="md-ellipsis">
-      Mini Project: Build a Simple Calculator
+      Sets: डुप्लिकेट्स के बिना कलेक्शन
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Mini Project: Build a Simple Calculator">
+    <nav class="md-nav" aria-label="Sets: डुप्लिकेट्स के बिना कलेक्शन">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#code-example-simple-calculator" class="md-nav__link">
+  <a href="#set" class="md-nav__link">
     <span class="md-ellipsis">
-      Code Example: Simple Calculator
+      कोड उदाहरण: अद्वितीय रंगों का एक set
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#explanation_1" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
-      Explanation:
+      व्याख्या:
     </span>
   </a>
   
@@ -1004,19 +1088,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#quiz-time" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
-      Quiz Time!
+      मजेदार उदाहरण: अपने दोस्तों के पसंदीदा स्नैक्स संग्रहीत करें
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Quiz Time!">
+    <nav class="md-nav" aria-label="मजेदार उदाहरण: अपने दोस्तों के पसंदीदा स्नैक्स संग्रहीत करें">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#answers" class="md-nav__link">
+  <a href="#friends-snacks" class="md-nav__link">
     <span class="md-ellipsis">
-      Answers:
+      कोड उदाहरण: Friends और Snacks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      यहां क्या हो रहा है?
     </span>
   </a>
   
@@ -1028,9 +1121,66 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#further-reading" class="md-nav__link">
+  <a href="#contact-book" class="md-nav__link">
     <span class="md-ellipsis">
-      Further Reading
+      मिनी प्रोजेक्ट: एक Contact Book बनाएं
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="मिनी प्रोजेक्ट: एक Contact Book बनाएं">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contact-book_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      कोड उदाहरण: Contact Book
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      व्याख्या:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      क्विज़ टाइम!
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="क्विज़ टाइम!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      उत्तर:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      आगे पढ़ने के लिए
     </span>
   </a>
   
@@ -1054,114 +1204,158 @@
   
 
 
-<h1 id="chapter-1-introduction-to-python">Chapter 1: Introduction to Python</h1>
-<h2 id="what-is-python">What is Python?</h2>
-<h3 id="history-and-origin">History and Origin</h3>
-<p>Python is a popular programming language created by <strong>Guido van Rossum</strong> and released in <strong>1991</strong>. But here’s the cool part—Python was named after <em>Monty Python’s Flying Circus</em>, a comedy show that Guido loved. So, Python isn't just serious business—it’s fun from the very start!</p>
-<h3 id="why-python">Why Python?</h3>
-<p>Python is known for being <strong>easy to read and write</strong>, almost like writing in English! This is why it’s widely used in schools, universities, and even by companies like Google and NASA. You can use Python to make games, analyze data, or even control robots!</p>
+<h1 id="2-data-structures">अध्याय 2: Data Structures</h1>
+<p>इस अध्याय में, हम Python में <strong>data structures</strong> का उपयोग करके जानकारी को संग्रहीत और व्यवस्थित करना सीखेंगे। इसे ऐसे समझें जैसे आप चीज़ों को रखने और व्यवस्थित करने के लिए अलग-अलग डिब्बों का उपयोग कर रहे हैं।</p>
 <hr/>
-<h2 id="setting-up-python">Setting Up Python</h2>
-<p>Before we dive in, let’s get Python running on your computer. There are a few ways to do this:</p>
-<h3 id="installing-python">Installing Python</h3>
-<p>You can download and install Python from the <a href="https://www.python.org/downloads/">official Python website</a>. Once installed, you can write and run Python code on your computer.</p>
-<h3 id="using-google-colab-no-installation-required">Using Google Colab (No Installation Required!)</h3>
-<p>If you don’t want to install anything, use <a href="https://colab.research.google.com/">Google Colab</a>. It’s like a Python playground in your browser! This is a great way to get started quickly.</p>
-<h3 id="python-ides-integrated-development-environments">Python IDEs (Integrated Development Environments)</h3>
-<ul>
-<li><strong>VS Code</strong>: A lightweight editor with tons of features.</li>
-<li><strong>PyCharm</strong>: A powerful IDE made specifically for Python.</li>
-<li><strong>Jupyter Notebook</strong>: A great tool for writing Python alongside explanations (perfect for data science).</li>
-</ul>
+<h2 id="data-structures">Data Structures क्या हैं?</h2>
+<p>Python में, हम <strong>data structures</strong> का उपयोग डेटा को संगठित और प्रबंधित करने के लिए करते हैं। यहां चार बुनियादी प्रकार हैं जिन पर हम ध्यान देंगे:
+1. <strong>Variables</strong> (जैसे बक्से जो मानों को रखते हैं)
+2. <strong>Lists</strong> (जैसे एक to-do सूची)
+3. <strong>Tuples</strong> (जैसे एक to-do सूची जो कभी नहीं बदलती)
+4. <strong>Dictionaries</strong> (जैसे नाम और उनके फ़ोन नंबरों की सूची)
+5. <strong>Sets</strong> (एक सूची, लेकिन बिना डुप्लिकेट के)</p>
 <hr/>
-<h2 id="your-first-python-program">Your First Python Program</h2>
-<p>Let’s write your first piece of Python code! We’ll keep it classic with a simple <strong>"Hello, World!"</strong> program.</p>
-<h3 id="code-example-hello-world">Code Example: "Hello, World!"</h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># This is a comment! Python will ignore it</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, World!"</span><span class="p">)</span>
+<h2 id="variables-data-types">Variables और Data Types</h2>
+<p>एक <strong>variable</strong> एक कंटेनर की तरह होता है जहां हम एक जानकारी संग्रहीत कर सकते हैं। वह जानकारी <strong>number</strong>, <strong>string</strong> (टेक्स्ट), या <strong>boolean</strong> (True/False) हो सकती है।</p>
+<h3 id="variables">कोड उदाहरण: Variables का उपयोग</h3>
+<div class="highlight"><pre><span></span><code><span class="n">name</span> <span class="o">=</span> <span class="s2">"Alice"</span>  <span class="c1"># String (टेक्स्ट)</span>
+<span class="n">age</span> <span class="o">=</span> <span class="mi">16</span>        <span class="c1"># Integer (पूर्णांक)</span>
+<span class="n">is_student</span> <span class="o">=</span> <span class="kc">True</span>  <span class="c1"># Boolean (True/False)</span>
 </code></pre></div>
-<h3 id="explanation">Explanation:</h3>
+<h3 id="_1">व्याख्या:</h3>
 <ul>
-<li><strong><code>print()</code></strong> is a function that tells Python to display something on the screen. In this case, it will display “Hello, World!”.</li>
+<li><strong><code>name</code></strong> एक टेक्स्ट (जिसे <strong>string</strong> कहा जाता है) को संग्रहीत करता है।</li>
+<li><strong><code>age</code></strong> एक पूर्णांक (जिसे <strong>integer</strong> कहा जाता है) को संग्रहीत करता है।</li>
+<li><strong><code>is_student</code></strong> एक true/false मान (जिसे <strong>boolean</strong> कहा जाता है) को संग्रहीत करता है।</li>
 </ul>
 <hr/>
-<h2 id="fun-example-greet-the-user">Fun Example: Greet the User</h2>
-<p>Let’s make this more personal! Write a program that asks the user for their name and greets them. Try this:</p>
-<div class="highlight"><pre><span></span><code><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"What is your name? "</span><span class="p">)</span>  <span class="c1"># Takes input from the user</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, "</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">"! Welcome to Python!"</span><span class="p">)</span>  <span class="c1"># Greets the user</span>
+<h2 id="lists">Lists: आइटम्स का कलेक्शन संगठित करना</h2>
+<p>एक <strong>list</strong> एक शॉपिंग सूची की तरह होती है: आप इसमें कई चीज़ें संग्रहीत कर सकते हैं, और यह जरूरी नहीं है कि वे एक ही प्रकार की हों। आप सूची में आइटम्स जोड़ सकते हैं, हटा सकते हैं, या यहां तक कि उनमें परिवर्तन भी कर सकते हैं।</p>
+<h3 id="_2">कोड उदाहरण: आपके पसंदीदा भोजन की सूची</h3>
+<div class="highlight"><pre><span></span><code><span class="n">favorite_foods</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"pizza"</span><span class="p">,</span> <span class="s2">"burger"</span><span class="p">,</span> <span class="s2">"ice cream"</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">favorite_foods</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  <span class="c1"># पहला आइटम प्रिंट करता है: pizza</span>
+
+<span class="c1"># सूची में एक आइटम जोड़ना</span>
+<span class="n">favorite_foods</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">"pasta"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">favorite_foods</span><span class="p">)</span>
 </code></pre></div>
-<h3 id="whats-happening-here">What’s Happening Here?</h3>
+<h3 id="_3">व्याख्या:</h3>
 <ul>
-<li><strong><code>input()</code></strong> lets the user type something.</li>
-<li><strong><code>+</code></strong> combines (concatenates) strings together.</li>
+<li><strong><code>favorite_foods[0]</code></strong> सूची के पहले आइटम को संदर्भित करता है (Python में गिनती 0 से शुरू होती है)।</li>
+<li><strong><code>.append()</code></strong> सूची में एक नया आइटम जोड़ता है।</li>
 </ul>
-<p>Now, when you run this, it will ask for your name and greet you personally. Cool, right?</p>
 <hr/>
-<h2 id="mini-project-build-a-simple-calculator">Mini Project: Build a Simple Calculator</h2>
-<p>Let’s take what you’ve learned and make a mini project—a calculator! It will ask for two numbers and an operation (like +, -, *, /), then give the result.</p>
-<h3 id="code-example-simple-calculator">Code Example: Simple Calculator</h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Ask the user for two numbers</span>
-<span class="n">num1</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Enter first number: "</span><span class="p">))</span>
-<span class="n">num2</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">"Enter second number: "</span><span class="p">))</span>
+<h2 id="tuples">Tuples: ऐसी सूची जो बदली नहीं जा सकती</h2>
+<p>एक <strong>tuple</strong> एक सूची की तरह होता है, लेकिन एक बार इसे बना लेने के बाद, आप इसे बदल नहीं सकते। यह उन चीज़ों के लिए बेहतरीन है जिन्हें बदलने की आवश्यकता नहीं है, जैसे एक बिंदु के निर्देशांक।</p>
+<h3 id="tuple">कोड उदाहरण: निर्देशांक का एक tuple</h3>
+<div class="highlight"><pre><span></span><code><span class="n">point</span> <span class="o">=</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>  <span class="c1"># एक tuple जो एक ग्राफ़ पर एक बिंदु का प्रतिनिधित्व करता है</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">point</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  <span class="c1"># 3 प्रिंट करता है</span>
+</code></pre></div>
+<h3 id="_4">मजेदार तथ्य:</h3>
+<ul>
+<li>आप <strong>tuples</strong> को एक बार बनाने के बाद नहीं बदल सकते, इसलिए यह उन चीज़ों के लिए सही है जिन्हें संशोधित करने की आवश्यकता नहीं है।</li>
+</ul>
+<hr/>
+<h2 id="dictionaries-key-value-pairs">Dictionaries: Key-Value Pairs में डेटा संग्रहीत करना</h2>
+<p>एक <strong>dictionary</strong> डेटा को जोड़े में संग्रहीत करता है, जैसे एक वास्तविक जीवन का डिक्शनरी जिसमें शब्द (keys) और उनके अर्थ (values) होते हैं। यह संबंधित जानकारी, जैसे नाम और फोन नंबर संग्रहीत करने के लिए बेहतरीन है।</p>
+<h3 id="phone-book">कोड उदाहरण: एक Phone Book</h3>
+<div class="highlight"><pre><span></span><code><span class="n">phone_book</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"Alice"</span><span class="p">:</span> <span class="s2">"555-1234"</span><span class="p">,</span>
+    <span class="s2">"Bob"</span><span class="p">:</span> <span class="s2">"555-5678"</span><span class="p">,</span>
+    <span class="s2">"Charlie"</span><span class="p">:</span> <span class="s2">"555-8765"</span>
+<span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">phone_book</span><span class="p">[</span><span class="s2">"Alice"</span><span class="p">])</span>  <span class="c1"># Alice का फोन नंबर प्रिंट करता है</span>
+</code></pre></div>
+<h3 id="_5">व्याख्या:</h3>
+<ul>
+<li><strong><code>"Alice"</code></strong> key है, और <strong><code>"555-1234"</code></strong> value है।</li>
+<li>आप value प्राप्त करने के लिए key का उपयोग कर सकते हैं, जैसे एक डिक्शनरी में कोई शब्द खोजते हैं।</li>
+</ul>
+<hr/>
+<h2 id="sets">Sets: डुप्लिकेट्स के बिना कलेक्शन</h2>
+<p>एक <strong>set</strong> एक सूची की तरह होता है, लेकिन यह स्वचालित रूप से डुप्लिकेट्स को हटा देता है। यदि आप एक ही आइटम को दो बार जोड़ते हैं, तो यह केवल एक ही रखेगा।</p>
+<h3 id="set">कोड उदाहरण: अद्वितीय रंगों का एक set</h3>
+<div class="highlight"><pre><span></span><code><span class="n">colors</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"red"</span><span class="p">,</span> <span class="s2">"blue"</span><span class="p">,</span> <span class="s2">"green"</span><span class="p">,</span> <span class="s2">"red"</span><span class="p">}</span>  <span class="c1"># "red" दो बार प्रकट होता है</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">colors</span><span class="p">)</span>  <span class="c1"># आउटपुट होगा: {'red', 'blue', 'green'}</span>
+</code></pre></div>
+<h3 id="_6">व्याख्या:</h3>
+<ul>
+<li>Sets उन स्थितियों के लिए अच्छे हैं जब आप सुनिश्चित करना चाहते हैं कि कोई डुप्लिकेट न हो।</li>
+</ul>
+<hr/>
+<h2 id="_7">मजेदार उदाहरण: अपने दोस्तों के पसंदीदा स्नैक्स संग्रहीत करें</h2>
+<p>आइए इन data structures को मिलाकर <strong>dictionary</strong> और <strong>list</strong> का उपयोग करके अपने दोस्तों के नाम और उनके पसंदीदा स्नैक्स संग्रहीत करें।</p>
+<h3 id="friends-snacks">कोड उदाहरण: Friends और Snacks</h3>
+<div class="highlight"><pre><span></span><code><span class="n">friends_snacks</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"Alice"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"chips"</span><span class="p">,</span> <span class="s2">"soda"</span><span class="p">],</span>
+    <span class="s2">"Bob"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"pizza"</span><span class="p">,</span> <span class="s2">"ice cream"</span><span class="p">],</span>
+    <span class="s2">"Charlie"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"cookies"</span><span class="p">,</span> <span class="s2">"juice"</span><span class="p">]</span>
+<span class="p">}</span>
 
-<span class="c1"># Ask for an operation</span>
-<span class="n">operation</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Choose operation (+, -, *, /): "</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">friends_snacks</span><span class="p">[</span><span class="s2">"Alice"</span><span class="p">])</span>  <span class="c1"># Alice के पसंदीदा स्नैक्स प्रिंट करता है</span>
+</code></pre></div>
+<h3 id="_8">यहां क्या हो रहा है?</h3>
+<ul>
+<li>हम एक dictionary का उपयोग कर रहे हैं जो दोस्तों के नाम को keys के रूप में और उनके पसंदीदा स्नैक्स को lists (values) के रूप में संग्रहीत करता है।</li>
+</ul>
+<hr/>
+<h2 id="contact-book">मिनी प्रोजेक्ट: एक Contact Book बनाएं</h2>
+<p>अब तक हमने जो सीखा है उसका उपयोग करके एक <strong>contact book</strong> बनाते हैं जो नाम और फोन नंबर संग्रहीत करता है। आप इसमें contacts जोड़ सकते हैं, हटा सकते हैं, और खोज सकते हैं!</p>
+<h3 id="contact-book_1">कोड उदाहरण: Contact Book</h3>
+<div class="highlight"><pre><span></span><code><span class="n">contacts</span> <span class="o">=</span> <span class="p">{}</span>
 
-<span class="c1"># Perform the operation</span>
-<span class="k">if</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'+'</span><span class="p">:</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span>
-<span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'-'</span><span class="p">:</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">-</span> <span class="n">num2</span>
-<span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">*</span> <span class="n">num2</span>
-<span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s1">'/'</span><span class="p">:</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">/</span> <span class="n">num2</span>
+<span class="c1"># Contacts जोड़ना</span>
+<span class="n">contacts</span><span class="p">[</span><span class="s2">"Alice"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"555-1234"</span>
+<span class="n">contacts</span><span class="p">[</span><span class="s2">"Bob"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"555-5678"</span>
+
+<span class="c1"># किसी contact को खोजें</span>
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"खोजने के लिए एक नाम दर्ज करें: "</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">contacts</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">name</span> <span class="o">+</span> <span class="s2">" का फोन नंबर है "</span> <span class="o">+</span> <span class="n">contacts</span><span class="p">[</span><span class="n">name</span><span class="p">])</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="s2">"Invalid operation!"</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"The result is: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Contact नहीं मिला।"</span><span class="p">)</span>
 </code></pre></div>
-<h3 id="explanation_1">Explanation:</h3>
+<h3 id="_9">व्याख्या:</h3>
 <ul>
-<li>We use <strong><code>input()</code></strong> to take numbers and an operation from the user.</li>
-<li><strong>If statements</strong> decide which operation to perform.</li>
-<li>We print the result!</li>
+<li>हम एक dictionary का उपयोग करके नाम और फोन नंबर संग्रहीत कर रहे हैं।</li>
+<li>प्रोग्राम आपको नाम के अनुसार contact खोजने देता है।</li>
 </ul>
 <hr/>
-<h2 id="quiz-time">Quiz Time! <img alt="🎉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f389.svg" title=":tada:"/></h2>
-<p>Let’s see what you remember from this chapter:</p>
+<h2 id="_10">क्विज़ टाइम! <img alt="🎉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f389.svg" title=":tada:"/></h2>
+<p>इस क्विज़ से अपने ज्ञान का परीक्षण करें:</p>
 <ol>
 <li>
-<p><strong>Who created Python?</strong><br/>
-   A. Elon Musk<br/>
-   B. Guido van Rossum<br/>
-   C. Steve Jobs  </p>
+<p><strong>कौन सा data structure डुप्लिकेट्स की अनुमति देता है?</strong><br/>
+    A. List<br/>
+    B. Tuple<br/>
+    C. Set  </p>
 </li>
 <li>
-<p><strong>What does <code>print()</code> do?</strong><br/>
-   A. Print paper<br/>
-   B. Display something on the screen<br/>
-   C. Create a file  </p>
+<p><strong>इनमें से कौन सा key-value pair data structure है?</strong><br/>
+    A. List<br/>
+    B. Dictionary<br/>
+    C. Set  </p>
 </li>
 <li>
-<p><strong>What does the <code>input()</code> function do?</strong><br/>
-   A. Takes input from the user<br/>
-   B. Outputs a result<br/>
-   C. Starts the program  </p>
+<p><strong>Tuple क्या अनुमति देता है?</strong><br/>
+    A. इसके values को बदलना<br/>
+    B. values को दोहराना<br/>
+    C. डेटा को अपरिवर्तित रखना  </p>
 </li>
 </ol>
-<h3 id="answers">Answers:</h3>
+<h3 id="_11">उत्तर:</h3>
 <ol>
-<li>B</li>
-<li>B</li>
 <li>A</li>
+<li>B</li>
+<li>C</li>
 </ol>
 <hr/>
-<h2 id="further-reading">Further Reading</h2>
-<p>If you’re curious to learn more, check out:
-- <a href="https://wiki.python.org/moin/BeginnersGuide">Python Beginner's Guide</a></p>
+<h2 id="_12">आगे पढ़ने के लिए</h2>
+<p>यदि आप Python के data structures के बारे में अधिक जानना चाहते हैं, तो इसे देखें:
+- <a href="https://docs.python.org/3/tutorial/datastructures.html">Python Lists और Tuples</a></p>
 <hr/>
-<p>Next, we'll move to <strong>Chapter 2: Data Structures</strong>, where we'll dive into variables and cool ways to store data. How does that sound?</p>
+<p>अगले अध्याय में, हम <strong>conditions</strong> के बारे में सीखेंगे और Python प्रोग्रामों में निर्णय कैसे लें। कुछ मजेदार उदाहरणों और एक और मिनी प्रोजेक्ट के लिए तैयार रहें!</p>
+<hr/>
 
 
 
@@ -1239,7 +1433,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Back to top
+  शीर्षभाग पर लौटें
 </button>
         
       </main>
@@ -1298,16 +1492,16 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "search.share", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "search.share", "search.suggest", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u0915\u094d\u0932\u093f\u092a\u092c\u094b\u0930\u094d\u0921 \u092a\u0930 \u0915\u0949\u092a\u0940 \u0915\u0930 \u0926\u093f\u092f\u093e \u0917\u092f\u093e", "clipboard.copy": "\u0915\u094d\u0932\u093f\u092a\u092c\u094b\u0930\u094d\u0921 \u092a\u0930 \u0915\u0949\u092a\u0940 \u0915\u0930\u0947\u0902", "search.result.more.one": "1 \u0914\u0930 \u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u092a\u0930", "search.result.more.other": "# \u0914\u0930 \u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u092a\u0930", "search.result.none": "\u0915\u094b\u0908 \u092e\u093f\u0932\u093e\u0928 \u0921\u0949\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f \u0928\u0939\u0940\u0902", "search.result.one": "1 \u092e\u093f\u0932\u093e\u0928 \u0921\u0949\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f", "search.result.other": "# \u092e\u093f\u0932\u093e\u0928 \u0921\u093e\u0915\u094d\u092f\u0942\u092e\u0947\u0902\u091f\u094d\u0938", "search.result.placeholder": "\u0916\u094b\u091c \u0936\u0941\u0930\u0942 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u091f\u093e\u0907\u092a \u0915\u0930\u0947\u0902", "search.result.term.missing": "\u095a\u093e\u092f\u092c", "select.version": "\u0935\u0930\u094d\u0936\u0928 \u091a\u0941\u0928\u0947\u0902"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
       
-        <script src="../../javascripts/extra.js"></script>
+        <script src="../../../javascripts/extra.js"></script>
       
-        <script src="../../javascripts/feedback.js"></script>
+        <script src="../../../javascripts/feedback.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       

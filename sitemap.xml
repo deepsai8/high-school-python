@@ -1,68 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/markmap_01/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter01/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter01/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter01/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter01/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter02/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter02/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter02/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter02/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter03/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter03/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter03/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter03/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter04/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter04/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter04/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter04/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter05/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter05/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter05/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter05/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter06/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter06/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter06/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter06/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter07/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter07/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter07/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter07/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter08/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter08/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter08/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter08/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter09-ans/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter09-ans/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter09-ans/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter09/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter09/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter09/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter09/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/chapter10/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/chapter10/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter10/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter10/"/>
     </url>
     <url>
-         <loc>https://deepsai8.github.io/high-school-python/chapters/contents/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://deepsai8.github.io/high-school-python/chapters/contents/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/contents/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/contents/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter01/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter01/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter01/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter02/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter02/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter02/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter03/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter03/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter03/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter04/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter04/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter04/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter05/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter05/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter05/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter06/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter06/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter06/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter07/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter07/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter07/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter08/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter08/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter08/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter09-ans/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter09-ans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter09-ans/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter09/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter09/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter09/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/chapter10/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/chapter10/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/chapter10/"/>
+    </url>
+    <url>
+        <loc>https://deepsai8.github.io/high-school-python/hi/chapters/contents/</loc>
+        <lastmod>2024-09-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://deepsai8.github.io/high-school-python/hi/chapters/contents/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://deepsai8.github.io/high-school-python/chapters/contents/"/>
     </url>
 </urlset>
